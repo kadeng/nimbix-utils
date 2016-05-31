@@ -1,0 +1,26 @@
+{
+  "machine": {
+    "nodes": "1",
+    "type": "#machine#"
+  },
+  "vault": {
+    "readonly": false,
+    "force": false,
+    "name": "drop.jarvice.com"
+  },
+  "variables": {
+    "TEST_VAR1": "TEST_VALUE1"
+  },
+  "user": {
+    "username": "#username#",
+    "apikey": "#apikey#"
+  },
+  "nae": {
+    "force": false,
+    "name": "#image#",
+    "geometry": "1904x885",
+    "ephemeral": false,
+    "staging": #staging#,
+    "interactive": true
+  }
+}
